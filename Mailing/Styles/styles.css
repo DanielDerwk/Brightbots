@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Titulo{
+    text-align: center;
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #2c829d;
+    letter-spacing: 0px;
+}
+.Sub_titulo{
+    text-align: center;
+    color: #00bed6;
+    font-size: 25px;
+    font-weight: lighter; 
+}
+.Grupo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30px;
+    top: 190px;
+    align-items: center;
+    width: 200px;
+}
+.Icono{
+    width: 70px;
+    padding: 0px 0px 20px;
+}
+.Texto1{
+    color: #2c829d;
+    font-size: 20px;
+    line-height: 20px;
+}
+.Texto2{
+    color: #ff6100;
+    line-height: 20px;
+}
+.Alineacion{
+    text-align: end;
+    margin: 0;
+    padding: 0;    
+}
+
+footer{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+    padding: 16px 10px;
+}
+.Icon1{
+    margin: 0px 5px;
+}
+.Icon2{
+    margin: 0px 5px;
+}
+.TextoFarma{
+    font-size: 25px;
+    padding: 0 19px;
+    color: #2c829d;
+}
+.Icon3{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
